@@ -4,6 +4,7 @@ interface BaseResponseInteface {
   success: boolean;
   data?: any;
   errors?: ValidationError[];
+  customErrors?: any;
 }
 
 interface BaseResponseSuccess extends BaseResponseInteface {
